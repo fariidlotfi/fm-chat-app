@@ -14,3 +14,9 @@
   line-height: 1.5em;
   color: #949494;
 }
+
+@media screen and (max-width: 600px) {
+  .box {
+    align-items: center;
+  }
+}
