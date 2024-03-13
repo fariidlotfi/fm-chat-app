@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+span {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fafafa;
+  height: 100svh;
+  overflow: hidden;
+}
+
+.left-gradient {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: -12%;
+  width: 800px;
+  height: 90svh;
+  background: linear-gradient(to top, #923aff, #c841ff);
+  border-radius: 0 0 50% 50%;
+  -webkit-border-radius: 0 0 50% 50%;
+  -moz-border-radius: 0 0 50% 50%;
+  -ms-border-radius: 0 0 50% 50%;
+  -o-border-radius: 0 0 50% 50%;
+}
+
+.right-gradient {
+  z-index: -1;
+  position: absolute;
+  bottom: -10%;
+  opacity: 0.05;
+  right: -28%;
+  width: 800px;
+  height: 90svh;
+  background: linear-gradient(to top, #923aff, #c841ff);
+  border-radius: 50% 50% 0 0;
+  -webkit-border-radius: 50% 50% 0 0;
+  -moz-border-radius: 50% 50% 0 0;
+  -ms-border-radius: 50% 50% 0 0;
+  -o-border-radius: 50% 50% 0 0;
+}
+
+.data {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.phone,
+.data-text {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}

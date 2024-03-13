@@ -1,0 +1,107 @@
+.phone {
+  width: 250px;
+  height: 540px;
+  border: 10px solid white;
+  background: #f5f3f8;
+  border-radius: 35px;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  -ms-border-radius: 35px;
+  -o-border-radius: 35px;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.notch {
+  position: absolute;
+  top: 0;
+  left: 25%;
+  width: 50%;
+  height: 24px;
+  background-color: white;
+  border-radius: 0 0 18px 18px;
+  -webkit-border-radius: 0 0 18px 18px;
+  -moz-border-radius: 0 0 18px 18px;
+  -ms-border-radius: 0 0 18px 18px;
+  -o-border-radius: 0 0 18px 18px;
+}
+
+.header {
+  background: linear-gradient(to right, #923aff, #c841ff);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 10px 10px 10px;
+  border-radius: 25px 25px 5px 5px;
+  -webkit-border-radius: 25px 25px 5px 5px;
+  -moz-border-radius: 25px 25px 5px 5px;
+  -ms-border-radius: 25px 25px 5px 5px;
+  -o-border-radius: 25px 25px 5px 5px;
+}
+
+.avatar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.avatar__name {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.avatar__desc {
+  font-size: 8px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.avatar__image {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.message_section {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.message_section__input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 15px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.message_section__input::placeholder {
+  font-size: 10px;
+}
+
+.message_section__button {
+  position: absolute;
+  right: 8px;
+  bottom: 5px;
+  padding: 10px 14px;
+  border: none;
+  outline: none;
+  background-color: #3f2554;
+  color: white;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}

@@ -1,0 +1,42 @@
+.box {
+  background: linear-gradient(to right, #923aff, #c841ff);
+  width: 85%;
+  padding: 10px 10px 10px 35px;
+  margin: 5px;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  gap: 15px;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  border: 1px dashed #ddd;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.border_left {
+  border-radius: 8px 8px 8px 2px;
+  -webkit-border-radius: 8px 8px 8px 2px;
+  -moz-border-radius: 8px 8px 8px 2px;
+  -ms-border-radius: 8px 8px 8px 2px;
+  -o-border-radius: 8px 8px 8px 2px;
+}
+
+.border_right {
+  border-radius: 8px 8px 2px 8px;
+  -webkit-border-radius: 8px 8px 2px 8px;
+  -moz-border-radius: 8px 8px 2px 8px;
+  -ms-border-radius: 8px 8px 2px 8px;
+  -o-border-radius: 8px 8px 2px 8px;
+}
